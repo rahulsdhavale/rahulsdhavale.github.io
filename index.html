@@ -199,9 +199,36 @@
     <div class="sidebar">
 
         <div class="profile-pic">
-            <img src="profile_pic.JPG" alt="Rahul Dhavale">
+            <img src="profile_pic.JPG" alt="Rahul Dhavale" class="profile-img" >
+            
         </div>
-
+        .sidebar {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .profile-pic {
+            width: 220px;
+            height: 220px;
+            margin: 0 auto 20px auto;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
         <div class="name">
             Rahul Dhavale
         </div>
